@@ -1,0 +1,152 @@
+[
+  {
+    "student_id": "1",
+    "name": "Alice Smith",
+    "age": 18,
+    "grade": "Senior",
+    "courses": ["Math", "Science", "History"],
+    "address": {
+      "street": "456 Elm St",
+      "city": "Springfield"
+    },
+    "contact": {
+      "email": "alice.smith@example.com",
+      "phone": "+11234567890"
+    }
+  },
+  {
+    "student_id": "2",
+    "name": "Bob Johnson",
+    "age": 17,
+    "grade": "Junior",
+    "courses": ["English", "Physics", "Art"],
+    "address": {
+      "street": "789 Oak St",
+      "city": "Riverside"
+    },
+    "contact": {
+      "email": "bob.johnson@example.com",
+      "phone": "+12234567890"
+    }
+  },
+  {
+    "student_id": "3",
+    "name": "Emily Brown",
+    "age": 16,
+    "grade": "Sophomore",
+    "courses": ["Biology", "Spanish", "Music"],
+    "address": {
+      "street": "321 Pine St",
+      "city": "Lakeview"
+    },
+    "contact": {
+      "email": "emily.brown@example.com",
+      "phone": "+13334567890"
+    }
+  },
+  {
+    "student_id": "4",
+    "name": "Michael Davis",
+    "age": 17,
+    "grade": "Junior",
+    "courses": ["Chemistry", "French", "Physical Education"],
+    "address": {
+      "street": "987 Maple St",
+      "city": "Greenville"
+    },
+    "contact": {
+      "email": "michael.davis@example.com",
+      "phone": "+14434567890"
+    }
+  },
+  {
+    "student_id": "5",
+    "name": "Sophia Garcia",
+    "age": 15,
+    "grade": "Freshman",
+    "courses": ["Algebra", "Geography", "Drama"],
+    "address": {
+      "street": "654 Birch St",
+      "city": "Oakland"
+    },
+    "contact": {
+      "email": "sophia.garcia@example.com",
+      "phone": "+15534567890"
+    }
+  },
+  {
+    "student_id": "6",
+    "name": "Daniel Martinez",
+    "age": 16,
+    "grade": "Sophomore",
+    "courses": ["Geometry", "Economics", "Computer Science"],
+    "address": {
+      "street": "147 Walnut St",
+      "city": "Tampa"
+    },
+    "contact": {
+      "email": "daniel.martinez@example.com",
+      "phone": "+16634567890"
+    }
+  },
+  {
+    "student_id": "7",
+    "name": "Olivia Wilson",
+    "age": 17,
+    "grade": "Junior",
+    "courses": ["Calculus", "Psychology", "Physical Education"],
+    "address": {
+      "street": "852 Cedar St",
+      "city": "Seattle"
+    },
+    "contact": {
+      "email": "olivia.wilson@example.com",
+      "phone": "+17734567890"
+    }
+  },
+  {
+    "student_id": "8",
+    "name": "William Taylor",
+    "age": 18,
+    "grade": "Senior",
+    "courses": ["Literature", "Chemistry", "World History"],
+    "address": {
+      "street": "369 Pine St",
+      "city": "Portland"
+    },
+    "contact": {
+      "email": "william.taylor@example.com",
+      "phone": "+18834567890"
+    }
+  },
+  {
+    "student_id": "9",
+    "name": "Ava Anderson",
+    "age": 16,
+    "grade": "Sophomore",
+    "courses": ["Physics", "French", "Art"],
+    "address": {
+      "street": "963 Elm St",
+      "city": "Boston"
+    },
+    "contact": {
+      "email": "ava.anderson@example.com",
+      "phone": "+19934567890"
+    }
+  },
+  {
+    "student_id": "10",
+    "name": "Ethan Thomas",
+    "age": 15,
+    "grade": "Freshman",
+    "courses": ["Geometry", "Biology", "Music"],
+    "address": {
+      "street": "741 Oak St",
+      "city": "Chicago"
+    },
+    "contact": {
+      "email": "ethan.thomas@example.com",
+      "phone": "+10034567890"
+    }
+  }
+]

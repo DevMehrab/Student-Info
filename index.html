@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Students Info</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex">
+
+  <div class="flbt container nav">
+    <h3>Students Info</h3>
+    <div class="btn create">
+      New Student
+    </div>
+  </div>
+  <div class="home container">
+    <div class="main">
+      <div class="tabs">
+        <div class="wd active" id="Freshman">Freshman</div>
+        <div class="wd" id="Sophomore">Sophomore</div>
+        <div class="wd" id="Junior">Junior</div>
+        <div class="wd" id="Senior">Senior</div>
+      </div>
+
+      <div class="list-container">
+        <!-- <div class="entry flex wd">
+          <div class="id flex">8</div>
+          <div class="name">John Smith </div>
+          <div class="age"> 19</div>
+        </div>
+        <div class="entry flex wd">
+          <div class="id flex">8</div>
+          <div class="name">John Smith </div>
+          <div class="age"> 19</div>
+        </div>
+        <div class="entry flex wd">
+          <div class="id flex">8</div>
+          <div class="name">John Smith </div>
+          <div class="age"> 19</div>
+        </div> -->
+      </div>
+    </div>
+    <aside>
+      <div class="input-name-con">
+        <label class="wd">Search by name</label>
+        <input class="search-name" type="text" placeholder="John Smith">
+        <div class="result-name wd"></div>
+      </div>
+      <div class="input-id-con">
+        <label class="wd">Search by id</label>
+        <input class="search-id" type="text" placeholder="Student ID">
+        <div class="result-id wd"></div>
+      </div>
+      <div class="filter">
+        <label class="wd">Filter by course</label>
+        <select class="filter-grade wd">
+        </select>
+        <div class="result-grade "></div>
+      </div>
+    </aside>
+  </div>
+  <div class="modal-container">
+    <div class="modal-student">
+      <div class="header flbt wd">
+        <h2>Students Info</h2>
+        <p class="cancel"><i class='bx bx-x'></i></p>
+      </div>
+      <section class="flex">
+        
+      <div>
+        <label class="wd">Name:</label>
+        <input type="text" class="modal-name" placeholder="John Doe">
+      </div>
+      <div>
+        <label class="wd">Age:</label>
+        <input type="text" class="modal-age" placeholder="17">
+      </div>
+      </section>
+      <section class="flex">
+        
+      <div>
+        <label class="wd">Street:</label>
+        <input type="text" class="modal-street" placeholder="456 Elm St">
+      </div>
+      <div>
+        <label class="wd">City:</label>
+        <input type="text" class="modal-city" placeholder="Springfield">
+      </div>
+      </section>
+      <section class="flex">
+         <div>
+        <label class="wd">Mail:</label>
+        <input type="text" class="modal-mail" placeholder="alice.smith@example.com">
+      </div>
+      <div>
+        <label class="wd">Phone:</label>
+        <input type="text" class="modal-phone" placeholder="11234567890">
+      </div>
+      </section>
+     
+      <div>
+        <label class="wd">Select Grade:</label>
+        <select class="modal-grade">
+          <option>Freshman</option>
+          <option>Sophomore</option>
+          <option>Junior</option>
+          <option>Senior</option>
+        </select>
+      </div>
+      <div class="modal-course">
+        <label class="wd">Select courses (max 3):</label>
+        <div class="course-div flex">
+        </div>
+      </div>
+      
+      <div class="btn add-tolist">Add Student</div>
+    </div>
+
+  </div>
+  <div class="modal-view-container">
+    <div class="modal-view flex clm">
+      <div class="header wd flbt">
+        <p>info</p>
+        <p class="cancel-view"><i class='bx bx-x'></i></p>
+      </div>
+      <div class="image flex">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpZTCX8XqSIC1QUe5HyP7SJ5__Ms7DdpKtYw&usqp=CAU" alt="">
+      </div>
+      <h2>Alice Smith <span>Senior</span></h2>
+      <div class="flex cr">
+        <p>Math</p>
+        <p>Science</p>
+        <p>History</p>
+      </div>
+      <div class="loc wd flex">
+        <i class='bx bxs-map'></i>
+        <p>456 Elm St, Springfield</p>
+      </div>
+      <div class="loc wd flex">
+        <i class='bx bxs-phone'></i>
+        <p>+11234567890</p>
+      </div>
+      <div class="loc wd flex">
+        <i class='bx bxs-envelope' ></i>
+        <p>alice.smith@example.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
