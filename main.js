@@ -301,7 +301,7 @@ function userFilter(target, event) {
   let array = Student.getList();
   target.style.display = "block";
   array.forEach((e, i) => {
-    if (e.name.toLowerCase().includes(event.target.value)) {
+    if (e.name.toLowerCase().includes(event.target.value.toLowerCase())) {
       // console.log(e.name, i+1);
       let p = document.createElement("p");
       p.innerHTML = e.name;
