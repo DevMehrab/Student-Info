@@ -252,7 +252,7 @@ function show(person) {
         <div class="cancel-view"><i class='bx bx-x'></i></div>
       </div>
       <div class="image flex">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpZTCX8XqSIC1QUe5HyP7SJ5__Ms7DdpKtYw&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpkzgMaTT5jeZnxZh7W1cYWQvjUPqDDzea3A&s" alt="">
       </div>
       <h2>${person.name}<span>${person.grade}</span></h2>
       <div class="flex cr">
